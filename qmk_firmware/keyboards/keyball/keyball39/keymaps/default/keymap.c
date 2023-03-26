@@ -21,6 +21,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "quantum.h"
 // #include "tapdance.c"
 
+
+
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // keymap for default
@@ -47,9 +49,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [3] = LAYOUT_universal(
     KC_ESC   , _______  , _______  , _______  , _______  ,                            _______  , _______  , _______  , _______ , _______ ,
-    _______  , _______  , _______  , _______  , SCRL_DVI ,                            _______  , _______  , _______  , _______  , _______ ,
-    _______ , _______  , _______  , _______  , SCRL_DVD ,                            CPI_D1K  , CPI_D100 , CPI_I100 , CPI_I1K  , KBC_SAVE ,
-    QK_BOOT    , KBC_RST  , _______  , _______  , _______  , _______  ,      _______ ,  _______  , _______  , _______  , KBC_RST  , QK_BOOT
+    KC_TAB   , KC_LSFT  , _______  , _______  , SCRL_DVI ,                            _______  , _______  , _______  , _______  , _______ ,
+    _______  , _______  , _______  , _______  , SCRL_DVD ,                            CPI_D1K  , CPI_D100 , CPI_I100 , CPI_I1K  , KBC_SAVE ,
+    QK_BOOT  , KBC_RST  , _______  , _______  , _______  , _______  ,      _______ ,  _______  , _______  , _______  , KBC_RST  , QK_BOOT
   ),
 
   [4] = LAYOUT_universal(
