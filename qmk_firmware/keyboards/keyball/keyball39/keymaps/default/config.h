@@ -37,3 +37,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define POINTING_DEVICE_AUTO_MOUSE_ENABLE
 #define AUTO_MOUSE_DEFAULT_LAYER 4
+
+// ファームウェアサイズの削減のため、利用しない機能を無効化する
+
+// 効果がなかったもの
+// #undef LOCKING_SUPPORT_ENABLE
+// #undef LOCKING_RESYNC_ENABLE
+// #define NO_MUSIC_MODE
+// #define LAYER_STATE_8BIT
